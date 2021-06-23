@@ -1,0 +1,59 @@
+
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+.grid {
+    padding-left:50%;
+    border-right: 50%;
+    padding: 15px 15px;
+    margin: auto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+    border-radius: 5px;
+    align-items: space-around;
+    
+    height: 70vh;
+    width: 70vh;
+    
+    
+}
+.gameZone {
+   
+    background-color: rgb(255, 255, 255);
+    height: 22vh;
+    width: 22vh;
+    border: 3px 3px;
+}
+
+
+
+#xImg1 , #xImg2, #xImg3,#xImg4,#xImg5,#xImg6,#xImg7,#xImg8,#xImg9{
+    display: flex;
+    height: 20vh;
+    width: 20vh;
+    border: 1px;
+    align-self: center;
+    margin: auto;
+   
+}
+
+button {
+    margin: auto;
+}
+.selectPlayer {
+    display: flex;
+    margin: auto;
+}
+h2,h1{
+text-align: center;
+}
+h1{
+    text-decoration: dashed;
+    font-size: 55px;
+    color: red;
+}
+h2{
+    
+}
